@@ -1,4 +1,292 @@
-          <a href="https://claude.ai/public/artifacts/8b3f022d-e825-42f1-83c0-d50acc7fbd83" class="program-card" target="_blank">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Claude Programs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: rgba(255,255,255,0.9);
+            font-size: 1.2em;
+            margin-bottom: 50px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .programs-grid {
+            display: grid;
+            gap: 25px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .program-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .program-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(102,126,234,0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .program-card:hover::before {
+            left: 100%;
+        }
+
+        .program-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .program-title {
+            font-size: 1.8em;
+            color: #667eea;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .program-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2em;
+            flex-shrink: 0;
+        }
+
+        .program-description {
+            color: #666;
+            font-size: 1.05em;
+            line-height: 1.6;
+        }
+
+        .arrow {
+            position: absolute;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #667eea;
+            font-size: 1.5em;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .program-card:hover .arrow {
+            opacity: 1;
+            right: 25px;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .subtitle {
+                font-size: 1em;
+            }
+            
+            .program-title {
+                font-size: 1.4em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 My Claude Programs</h1>
+        <p class="subtitle">A collection of AI-powered applications and tools</p>
+       
+
+
+        <div class="programs-grid">
+            <a href="https://claude.ai/public/artifacts/5d25fca3-7f88-4fd6-9343-780325dab9e3" class="program-card" target="_blank">
+                <div class="program-icon">💡</div>
+                <div class="program-title">German Flash Cards</div>
+                <div class="program-description">Flash Cards for Learning German Language</div>
+                <span class="arrow">→</span>
+            </a>
+
+      <a href="https://claude.ai/public/artifacts/179f7572-a10e-4257-950e-e128c46f028e" class="program-card" target="_blank">
+                <div class="program-icon">💡</div>
+                <div class="program-title">Russian Flash Cards </div>
+                <div class="program-description">Learn Russian using Flash Cards</div>
+                <span class="arrow">→</span>
+            </a>
+            
+ <a href="https://srbee.github.io/bhasha/" class="program-card" target="_blank">
+                <div class="program-icon">💡</div>
+                <div class="program-title">Bhasha Indonesia Flash Cards </div>
+                <div class="program-description">Bhasha Indonesia Flash Cards</div>
+                <span class="arrow">→</span>
+            </a>
+           
+ <a href="https://claude.ai/public/artifacts/350776f9-89af-46df-ae49-7ce6805fef98" class="program-card" target="_blank">
+                <div class="program-icon">💡</div>
+                <div class="program-title">Chinese Flash Cards </div>
+                <div class="program-description">Learn Chinese using Flash Cards</div>
+                <span class="arrow">→</span>
+            </a>
+
+
+
+            
+      <a href="https://claude.ai/public/artifacts/bb169eb0-a868-4a70-9a32-690b86d52656" class="program-card" target="_blank">
+                <div class="program-icon">🎮</div>
+                <div class="program-title">Kannada Flash Cards </div>
+                <div class="program-description">Kannada Flash Cards</div>
+                <span class="arrow">→</span>
+            </a>  
+
+            
+       <a href="https://claude.ai/public/artifacts/95264ac4-0452-4cfb-99e1-202c0708bdd6" class="program-card" target="_blank">
+                <div class="program-icon">🎮</div>
+                <div class="program-title">Tamil to  Marathi Flash Cards </div>
+                <div class="program-description">Learn Tamil using Flash Cards</div>
+                <span class="arrow">→</span>
+            </a>  
+
+<a href="https://srbee.github.io/telugu/" class="program-card" target="_blank">
+                <div class="program-icon">🎮</div>
+                <div class="program-title">Telugu Flash Cards </div>
+                <div class="program-description"> Telugu  Flash Cards</div>
+                <span class="arrow">→</span>
+            </a>  
+
+            
+
+      <!-- Gurmukhi -->
+      <a href="https://claude.ai/public/artifacts/ca8804bd-1206-47d4-9f11-3f950b83c04e" class="program-card" target="_blank">
+                <div class="program-icon">🎮</div>
+                <div class="program-title">Gurmukhi Flash Cards </div>
+                <div class="program-description">Learn Gurmukhi  using Flash Cards</div>
+                <span class="arrow">→</span>
+            </a>
+
+
+
+
+     <a href="https://claude.ai/public/artifacts/ed7a0264-61d6-421a-87be-98ee52267a4f" class="program-card" target="_blank">
+                <div class="program-icon">🎮</div>
+                <div class="program-title">Bangla to  Marathi Flash Cards </div>
+                <div class="program-description">Learn Bangla using Flash Cards</div>
+                <span class="arrow">→</span>
+            </a>
+     
+
+            
+    <a href=" https://claude.ai/public/artifacts/d0e40aad-ffb9-473c-98db-0b7f3fd5bf28  " class="program-card" target="_blank">
+                <div class="program-icon">🎮</div>
+                <div class="program-title">Odia Flash Cards </div>
+                <div class="program-description">Learn Odia using Flash Cards</div>
+                <span class="arrow">→</span>
+            </a>
+
+            
+  <a href="https://claude.ai/public/artifacts/a8ffb25c-ed7a-4b5f-b0bd-3ac4acdc0334" class="program-card" target="_blank">
+                <div class="program-icon">🎨</div>
+                <div class="program-title">Python  Flash Cards</div>
+                <div class="program-description">Flash cards for learning Python</div>
+                <span class="arrow">→</span>
+            </a>          
+
+
+
+  <a href="https://claude.ai/public/artifacts/134394a7-cf95-4837-9148-33699f36d48a" class="program-card" target="_blank">
+                <div class="program-icon">🎨</div>
+                <div class="program-title">Block Chain  Flash Cards</div>
+                <div class="program-description">Flash cards for learning Block Chain</div>
+                <span class="arrow">→</span>
+            </a>
+
+
+            
+
+       <a href="https://claude.ai/public/artifacts/153ab4dd-0a6e-4e47-83e4-cf68c2306243" class="program-card" target="_blank">
+                <div class="program-icon">🎨</div>
+                <div class="program-title">IEEE Device Numbers Flash Cards</div>
+                <div class="program-description">Flash cards for learning the IEEE Device numbers and their names</div>
+                <span class="arrow">→</span>
+            </a>
+
+            <a href="https://claude.ai/public/artifacts/8b3f022d-e825-42f1-83c0-d50acc7fbd83" class="program-card" target="_blank">
                 <div class="program-icon">📊</div>
                 <div class="program-title">Morse Code Call Sign Trainer</div>
                 <div class="program-description">Generates random Amateur Radio Call Signs and lets you guess.Tells if the respose is corect or not</div>
@@ -11,4 +299,16 @@
                 <div class="program-description">Send Morse Code from the keyboard. Includes Custom Text</div>
                 <span class="arrow">→</span>
             </a>
+
+            
+
+
+
+            
+        </div>
+        
+    </div>
+</body>
+</html>
+"
 
